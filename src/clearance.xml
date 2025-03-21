@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<sclr:ConfidentialityClearance  
+ xmlns:sclr="urn:nato:stanag:4774:confidentialityclearance:1:0"  
+ xmlns:s4774="urn:nato:stanag:4774:confidentialitymetadatalabel:1:0"> 
+ <s4774:PolicyIdentifier>ACME</s4774:PolicyIdentifier> 
+ <sclr:ClassificationList> 
+  <s4774:Classification>PUBLIC</s4774:Classification> 
+  <s4774:Classification>CONFIDENTIAL</s4774:Classification> 
+  <s4774:Classification>INTERNAL</s4774:Classification> 
+ </sclr:ClassificationList> 
+ <s4774:Category TagName="Sensitive" Type="RESTRICTIVE"> 
+  <s4774:GenericValue>RED</s4774:GenericValue> 
+ </s4774:Category> 
+ <s4774:Category TagName="Releasable To" Type="PERMISSIVE"> 
+  <s4774:GenericValue>MOCK</s4774:GenericValue> 
+ </s4774:Category> 
+</sclr:ConfidentialityClearance>
